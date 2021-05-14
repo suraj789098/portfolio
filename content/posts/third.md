@@ -14,7 +14,7 @@ There are many applications of computer graphics like:
 5. Visual effects
 6. Computer-aided design and many more
 
-![](first.jpg)
+![](image/first.jpg)
 
 OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. The API is typically used to interact with a graphic processing unit, to achieve hardware-accelerated rendering. OpenGL is used extensively in the field of computer-aided design, virtual reality, flight simulation, and video games. The OpenGL specification describes an abstract API for drawing 2D and 3D graphics. The API is defined as a set of functions that may be called by the client program. Although the function definitions are superficially similar to those of the C programming language, they are language-independent. 
 Codeblocks is a free C/C++ IDE built to meet the most demanding needs of its users. Any kind of functionality can be added by installing/coding a plugin.
@@ -27,7 +27,7 @@ OpenGL can be installed and used in code blocks. In Linux operating system, Open
      c. sudo apt-get install freeglut3-dev
 3. Open code blocks-->settings-->compiler-->linker setting-->other linker options: add -lGL -lGLU -lGLUT  -lm
 
-![](second.png)
+![](image/second.png)
 
 As part of the course, we had to complete a mini-project on computer graphics. So I worked on a project involving the simulation of seasons in a year using OpenGL.
 We simulated the summer, winter, rainy, and autumn seasons in this project. For the project, we chose a city scene. Using line drawing concepts, we created buildings, schools, shops, and other multi-layered structures. We drew the sky with the sun, moon, and clouds created with the circle drawing technique We drew the trees, grass, people, streetlights, and cars as well. The sky is blue in the summer, with fewer clouds, and the sun is hot. We chose the sunrise scene for the winter season. We drew the snow falling. During the rainy season, the sky became grayer with the addition of more grey clouds. The rain was created with line drawing techniques and animated with a ‘for' loop on vertices. Trees turn orange in the autumn season, and their leaves fall off. Animated people, cars, and clouds were used in all scenes. The dried leaves are allowed to fall from the tree. When we press ‘w,' we are taken to a winter scene, when we press ‘a,' we are taken to an autumn scene, when we press ‘r,' we are taken to a rainy scene, and finally, when we press ‘s,' we are taken to a summer scene. To draw images easily in OpenGL, translation, scaling, and rotating concepts are used. If we want to draw the same object multiple times, such as cars or clouds, we write code to draw a single object and then translate it to a different position by varying the size of the object with translation and scaling. 
