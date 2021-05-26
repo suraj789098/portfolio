@@ -33,5 +33,5 @@ Each step use tables to perform the operation. Each round is performed by using 
 As the growth in the society where automated information resources are increased cryptography will continue to rise in importance as part of security mechanisms. The applications will need improved methods for access control and data security. DES is now considered insecure for some applications. According to the analytics, DES has theoretical weakness in the cipher. So it is important to add a new level of security to make the algorithm applicable. DES with two keys instead of one key will increase the efficiency of cryptography and which is already built. We need to add more complexity to the algorithm to make it more secure and efficient. Cryptography is an important and the most exciting field to work on in the world of computer science.   
  
  
-
+Source: Internet
 
